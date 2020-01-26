@@ -1,6 +1,6 @@
 # the_drone_pros
 
-A new Flutter project.
+A Drone website built using flutter web.
 
 ## Getting Started
 
