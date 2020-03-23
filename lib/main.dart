@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:the_drone_pros/locator.dart';
-import 'package:the_drone_pros/views/home/home_view.dart';
 import 'package:the_drone_pros/views/layout_template/layout_template.dart';
 
 void main() {
