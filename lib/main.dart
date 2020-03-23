@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:the_drone_pros/widgets/home_view/home_view.dart';
+import 'package:the_drone_pros/locator.dart';
+import 'package:the_drone_pros/views/home/home_view.dart';
+import 'package:the_drone_pros/views/layout_template/layout_template.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  setupLocator();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -14,7 +19,7 @@ class MyApp extends StatelessWidget {
           textTheme: Theme.of(context).textTheme.apply(
                 fontFamily: 'Open Sans',
               )),
-      home: HomeView(),
+      home: LayoutTemplate(),
     );
   }
 }
